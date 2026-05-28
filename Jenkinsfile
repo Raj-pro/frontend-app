@@ -42,7 +42,7 @@ pipeline {
                     sh '''
                     rm -rf k8s-config
 
-                    git clone https://${GIT_TOKEN}@github.com/Raj-pro/k8s-config.git
+                    git clone https://github.com/Raj-pro/k8s-config.git
 
                     cd k8s-config
 
